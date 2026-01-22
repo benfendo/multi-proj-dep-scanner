@@ -1,0 +1,8 @@
+{
+  "scannedAt": "2025-11-26T10:22:07.332Z",
+  "target": "./examples/projects",
+  "csv": "./input/example.csv",
+  "totalLockfiles": 3,
+  "hitsCount": 3,
+  "unparsableConstraints": []
+}

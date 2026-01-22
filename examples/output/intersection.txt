@@ -1,0 +1,5 @@
+@example/cli
+@example/csv-parse
+my-builder
+my-lib
+some-package

@@ -1,0 +1,9 @@
+project-gamma
+foo/node_modules/my-builder
+unused-package
+project-beta
+@example/csv-parse
+my-builder
+@example/cli
+my-lib
+some-package

@@ -1,0 +1,4 @@
+lockfilePath,packageName,resolvedVersion,vulnerableConstraint,notes
+examples/projects/project-beta/package-lock.json,@example/csv-parse,4.0.5,"=4.0.3 || =4.0.5 || =4.0.4",""
+examples/projects/project-alpha/package-lock.json,@example/cli,2.2.7,"=2.2.7 || =2.2.6",""
+examples/projects/project-alpha/package-lock.json,my-lib,0.9.1,"~0.9.0",""

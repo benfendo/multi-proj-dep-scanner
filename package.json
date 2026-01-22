@@ -1,0 +1,27 @@
+{
+  "name": "multi-proj-dep-scanner",
+  "version": "0.1.0",
+  "description": "Scan multiple projects for package-lock.json files and match package versions against a given CSV",
+  "bin": {
+    "scan": "./bin/scan.js"
+  },
+  "main": "./bin/scan.js",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.0.0",
+    "csv-parse": "^5.3.7",
+    "glob": "^10.3.3",
+    "semver": "^7.5.4"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "sh -c 'for f in tests/*.js; do node \"$f\" || exit 1; done'",
+    "scan": "node ./bin/scan.js --mode scan --out ./output",
+    "inventory": "node ./bin/scan.js --mode inventory --out ./output",
+    "near-miss": "node ./bin/scan.js --mode near-miss --out ./output",
+    "compare": "node ./bin/scan.js --mode compare --out ./output"
+  }
+}

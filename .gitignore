@@ -137,3 +137,14 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# User directories
+input/*
+!input/.gitkeep
+!input/example.csv
+output/*
+!output/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db

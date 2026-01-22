@@ -1,0 +1,10 @@
+packageName,version,lockfilePath
+project-gamma,1.0.0,examples/projects/project-gamma/package-lock.json
+foo/node_modules/my-builder,1.2.2,examples/projects/project-gamma/package-lock.json
+unused-package,0.0.5,examples/projects/project-gamma/package-lock.json
+project-beta,1.0.0,examples/projects/project-beta/package-lock.json
+@example/csv-parse,4.0.5,examples/projects/project-beta/package-lock.json
+my-builder,1.1.0,examples/projects/project-beta/package-lock.json
+@example/cli,2.2.7,examples/projects/project-alpha/package-lock.json
+my-lib,0.9.1,examples/projects/project-alpha/package-lock.json
+some-package,2.9.0,examples/projects/project-alpha/package-lock.json
